@@ -5,7 +5,7 @@
 function showOddNumber(number1, number2) {
     if (number1 >= 50 && number2 <= 80) {
         for (i = number1; i <= number2; i++) {
-            if (i % 2 != 0) {
+            if (i % 2 !== 0) {
                 console.log(i);
                 // return i;
             }
